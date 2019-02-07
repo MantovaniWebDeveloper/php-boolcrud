@@ -2,7 +2,7 @@
 <html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="src/public/css/app.css">
+    <link rel="stylesheet" href="http://localhost:8888/php-boolcrud/src/public/css/app.css">
     <title>BoolCrud by Dario Mantovani</title>
   </head>
   <body>
@@ -38,7 +38,7 @@
                   <td><?php echo $ospite["lastname"]; ?></td>
                   <td><button class=" btn btn-danger">Cancella</button></td>
                   <td><button class=" btn btn-warning text-light">Modifica</button></td>
-                  <td><button class=" btn btn-success ">Modifica</button></td>
+                  <td><a href="show/schedaOspite.php?id=<?php echo $ospite["id"]; ?>"><button class=" btn btn-success ">Visualizza</button></a></td>
 
                 </tr>
               <?php endforeach; ?>
