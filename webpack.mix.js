@@ -11,8 +11,8 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.sass('src/scss/app.scss', 'src/css/app.css');
-mix.js('src/js/app.js', 'public/js/main.js');
+mix.sass('src/scss/app.scss', 'src/public/css/app.css');
+mix.js('src/js/app.js', 'src/public/js/main.js');
 
 // Full API
 // mix.js(src, output);
