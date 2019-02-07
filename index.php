@@ -7,8 +7,30 @@
   </head>
   <body>
     <div class="container">
-      <h2>prova</h2>
+      <div class="row">
+        <div class="col-12">
+          <h2>Lista ospiti</h2>
+        </div>
+      </div>
+      <table class="table table-dark">
+        <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nome</th>
+                <th scope="col">cognome</th>
+                <th scope="col">Cancella</th>
+                <th scope="col">Modifica</th>
+                <th scope="col">Scheda cliente</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+
+              </tr>
+
+            </tbody>
+      </table>
     </div>
-    <script src="public/js/main.js"></script>
+    <script src="src/public/js/main.js"></script>
   </body>
 </html>
