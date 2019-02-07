@@ -6,6 +6,13 @@
     <title>BoolCrud by Dario Mantovani</title>
   </head>
   <body>
+    <?php
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL | E_STRICT);
+
+    include("db.php");
+    ?>
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -24,10 +31,13 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-
-              </tr>
-
+              <?php foreach ($ospiti as  $ospite): ?>
+                <tr>
+                  <td><?php echo $ospite["id"]; ?></td>
+                  <td><?php echo $ospite["name"]; ?></td>
+                  <td><?php echo $ospite["lastname"]; ?></td>
+                </tr>
+              <?php endforeach; ?>
             </tbody>
       </table>
     </div>
