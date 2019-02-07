@@ -36,6 +36,10 @@
                   <td><?php echo $ospite["id"]; ?></td>
                   <td><?php echo $ospite["name"]; ?></td>
                   <td><?php echo $ospite["lastname"]; ?></td>
+                  <td><button class=" btn btn-danger">Cancella</button></td>
+                  <td><button class=" btn btn-warning text-light">Modifica</button></td>
+                  <td><button class=" btn btn-success ">Modifica</button></td>
+
                 </tr>
               <?php endforeach; ?>
             </tbody>
