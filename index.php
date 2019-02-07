@@ -19,6 +19,11 @@
           <h2>Lista ospiti</h2>
         </div>
       </div>
+      <div class="row">
+        <div class="col-12">
+          <a href="http://localhost:8888/php-boolcrud/create/creaOspite.php"><button class=" btn btn-info mb-2 ">Registra nuovo ospite</button></a>
+        </div>
+      </div>
       <table class="table table-dark">
         <thead>
               <tr>
