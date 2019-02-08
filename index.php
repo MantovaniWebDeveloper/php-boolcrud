@@ -41,7 +41,7 @@
                   <td><?php echo $ospite["id"]; ?></td>
                   <td><?php echo $ospite["name"]; ?></td>
                   <td><?php echo $ospite["lastname"]; ?></td>
-                  <td><button class=" btn btn-danger">Cancella</button></td>
+                  <td><a href="delete/cancellaOspite.php?id=<?php echo $ospite["id"];  ?>"><button class=" btn btn-danger">Cancella</button></a></td>
                   <td><a href="update/modificaOspite.php?id=<?php echo $ospite["id"]; ?>"><button class=" btn btn-warning text-light">Modifica</button></a></td>
                   <td><a href="show/schedaOspite.php?id=<?php echo $ospite["id"]; ?>"><button class=" btn btn-success ">Visualizza</button></a></td>
 
