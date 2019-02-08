@@ -1,6 +1,6 @@
 <?php
   $servername = "localhost";
-  $dbname = "schema";
+  $dbname = "hotel_booleana";
   $user = "root";
   $pass = "root";
  ?>

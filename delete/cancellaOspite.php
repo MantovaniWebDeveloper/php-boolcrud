@@ -11,7 +11,7 @@
       echo("non sono riuscito a connnettermi!" .$conn->connect_error);
     }
 
-    $getId = $_GET["id"];
+    $getId = intval($_GET["id"]);
     //echo $getId;
     var_dump($getId);
 
