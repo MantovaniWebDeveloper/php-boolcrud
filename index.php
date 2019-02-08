@@ -50,12 +50,12 @@
             </tbody>
       </table>
     </div>
-    <script src="src/public/js/main.js"></script>
-    <script type="text/javascript" src="src/js/jquery.js"></script>
     <script type="text/javascript" src="node_modules/moment/moment.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/transition.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/collapse.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="src/public/js/main.js"></script>
+
   </body>
 </html>

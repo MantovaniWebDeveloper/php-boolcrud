@@ -21,5 +21,6 @@
   }
 
   //var_dump($ospite);
+  $conn->close();
 
  ?>
