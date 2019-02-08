@@ -42,7 +42,7 @@
                   <td><?php echo $ospite["name"]; ?></td>
                   <td><?php echo $ospite["lastname"]; ?></td>
                   <td><button class=" btn btn-danger">Cancella</button></td>
-                  <td><button class=" btn btn-warning text-light">Modifica</button></td>
+                  <td><a href="update/modificaOspite.php?id=<?php echo $ospite["id"]; ?>"><button class=" btn btn-warning text-light">Modifica</button></a></td>
                   <td><a href="show/schedaOspite.php?id=<?php echo $ospite["id"]; ?>"><button class=" btn btn-success ">Visualizza</button></a></td>
 
                 </tr>
@@ -50,11 +50,7 @@
             </tbody>
       </table>
     </div>
-    <script type="text/javascript" src="node_modules/moment/moment.js"></script>
-    <script type="text/javascript" src="node_modules/bootstrap/dist/js/transition.js"></script>
-    <script type="text/javascript" src="node_modules/bootstrap/dist/js/collapse.js"></script>
-    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+
     <script src="src/public/js/main.js"></script>
 
   </body>
