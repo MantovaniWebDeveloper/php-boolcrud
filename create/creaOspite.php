@@ -5,9 +5,21 @@
   <div class="form-group">
     <input class="form-control"type="text" name="lastname" value="lastname">
   </div>
-  <div class="form-group">
-    <input class="form-control"type="text" name="dataNascita" value="dataNascita">
-  </div>
+  <div class="container">
+    <div class="row">
+        <div class='col-sm-6'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker2'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
   <div class="form-group">
     <input class="form-control"type="text" name="tipoDocumento" value="tipoDocumento">
   </div>

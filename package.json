@@ -29,6 +29,7 @@
   "dependencies": {
     "bootstrap": "^4.2.1",
     "bootstrap4": "0.0.1-security",
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "moment": "^2.24.0"
   }
 }
