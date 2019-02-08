@@ -8,7 +8,7 @@ include ("../show/server.php");
 
 <form action="http://localhost:8888/php-boolcrud/update/server.php" method="post">
   <div class="form-group">
-    <input class="form-control"type="text" name="id" value="<?php echo $ospite["id"]; ?>">
+    <input class="form-control"type="hidden" name="id" value="<?php echo $ospite["id"]; ?>">
   </div>
   <div class="form-group">
     <input class="form-control"type="text" name="nome" value="<?php echo $ospite["name"]; ?>">
